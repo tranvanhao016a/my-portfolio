@@ -38,7 +38,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start mb-8">
               <button
                 onClick={() => scrollToSection('projects')}
                 className="btn-primary hover-lift text-lg font-semibold px-8 py-4 group"
@@ -56,7 +56,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
               </button>
             </div>
 
-            <div className="flex justify-center lg:justify-start gap-4 mt-6">
+            <div className="flex justify-center lg:justify-start gap-4 !mt-4">
               <a
                 href="https://github.com/tranvanhao016a"
                 target="_blank"
